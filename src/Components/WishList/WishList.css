@@ -1,0 +1,23 @@
+.wishlist {
+    margin-bottom: 70px;
+}
+
+.wishlist .table .pruchase .main-btn {
+    width: 220px;
+    margin: 0 auto;
+}
+
+.wishlist .table .pruchase .link {
+    width: 100%;
+    font-size: 13px;
+}
+
+
+/* media */
+@media only screen and (max-width: 600px) {
+    .wishlist .table .pruchase .main-btn {
+        width: 120px;
+        margin: 0 auto;
+    }
+}
+       

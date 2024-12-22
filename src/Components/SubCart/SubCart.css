@@ -1,0 +1,183 @@
+.subcart {
+    position: fixed;
+    top: 0;
+    width: 380px;
+    height: 100vh;
+    padding: 20px;
+    background: linear-gradient(180deg,#f6f6f6, #d5d5d5);
+    overflow: hidden;
+    z-index: 999;
+    transition: 1s;
+}
+
+.subcart.show {
+    right: 0;
+}
+
+.subcart.hide {
+    right: -380px;
+}
+
+.subcart .title {
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #999;
+}
+
+.subcart .title h6 {
+    font-weight: bold;
+    margin: 0;
+}
+
+.subcart .title .close {
+    background: none;
+    border: none;
+    font-size: 25px;
+    color: #999;
+    line-height: 5px;
+    height: fit-content;
+    transition: 0.5s;
+}
+
+.subcart .title .close:hover {
+    color: rebeccapurple;
+    transform: rotate(90deg);
+}
+
+.subcart .subcart-items {
+    height: 448px;
+    padding: 5px 0;
+    overflow-y: auto;
+    border-bottom: 1px solid #999;
+}
+
+.subcart .subcart-item .item-amount {
+    color: #888;
+    margin-right: 10px;
+}
+
+.subcart .subcart-item .item-price {
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.subcart .subcart-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.subcart .subcart-item img {
+    width: 75px;
+}
+
+.subcart .subcart-item .details {
+    width: 185px;
+}
+
+.subcart .subcart-item h6 {
+    color: #000;
+    margin: 0;
+    padding-top: 3px;
+}
+
+.subcart .control {
+    display: flex;
+    height: 23px;
+    width: fit-content;
+    border-radius: 15px;
+}
+
+.subcart .control button,
+.subcart .control input {
+    height: 100%;
+    width: 23px;
+    color: rebeccapurple;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.subcart .control button {
+    border: none;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.subcart .control input {
+    background: transparent;
+    border: none;
+    text-align: center;
+    appearance: none;
+}
+
+.subcart .control input:focus {
+    outline: none;
+}
+
+.subcart .subcart-item .remove button {
+    border: none;
+    background: none;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.subcart .subcart-item .remove button:hover {
+    background: rebeccapurple;
+    color: #fff;
+}
+
+.subcart .subcart-total {
+    padding: 10px 0;
+    height: fit-content;
+}
+
+.subcart .subcart-btns {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    
+}
+
+.subcart .subcart-btns button {
+    border: none;
+}
+
+.subcart .subcart-btns button,
+.subcart .subcart-btns .link {
+    background: rebeccapurple;
+    border-radius: 5px;
+    padding: 7px 37px;
+    color: #fff;
+}
+
+.subcart .blank-content {
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subcart .blank img {
+    height: 150px;
+    margin: 20px 0;
+}
+
+.subcart .blank h2 {
+    font-size: 20px;
+}
+
+.subcart .blank .main-btn {
+    margin: 20px 0;
+}
+
+
+/* media */
+@media only screen and (max-width: 600px) {
+    .subcart .subcart-items {
+        height: 600px;
+    }
+}
