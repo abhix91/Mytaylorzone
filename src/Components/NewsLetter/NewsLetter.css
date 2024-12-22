@@ -15,10 +15,19 @@
 }
 
 .newsletter .imgbx img {
-    width: 100%;
-    margin-top: -70px;
-    margin-bottom: -7px;
+    width: 80%; /* Reduced width */
+    margin-top: -50px; /* Adjusted margin */
+    margin-bottom: -10px; /* Adjusted margin */
 }
+
+@media only screen and (max-width: 600px) { 
+    .newsletter .imgbx img {
+        width: 100%; /* Full width for smaller screens */
+        margin-top: 0; /* Remove negative margin */
+        margin-bottom: 0; /* Remove negative margin */
+    }
+}
+
 
 .newsletter .text h1 {
     font-size: 45px;
