@@ -44,7 +44,7 @@ export default function Navbar() {
             <div className={togglebtn? 'main-links show' : 'main-links hide'}>
                 <ul className='links'>
                     <li><NavLink className="link" onClick={hideMobileMenu} to="/" activeClassName = "active" >Home</NavLink></li>
-                    <li><NavLink className="link" onClick={hideMobileMenu} to="men">Men</NavLink></li>
+                    
                     <li><NavLink className="link" onClick={hideMobileMenu} to="women">Women</NavLink></li>
                     <li><NavLink className="link" onClick={hideMobileMenu} to="kids">Kids</NavLink></li>
                     <li><NavLink className="link" onClick={hideMobileMenu} to="shop">Shop</NavLink></li>
@@ -52,7 +52,7 @@ export default function Navbar() {
                 <div className='tamplates-link' onMouseEnter={()=>setShowTemplates(true)} onMouseLeave={()=>setShowTemplates(false)}>
                     <div className='btn-content'>
                         <button>
-                            <span>tamplates</span>
+                            <span>templates</span>
                             <FiPlus className='templates-icon'/>
                         </button>
                     </div>

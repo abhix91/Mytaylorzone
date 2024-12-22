@@ -1,16 +1,19 @@
 .footer {
     position: relative;
     padding-top: 120px;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
 }
 
 .footer .content {
-    background: #dedede;
+    background: #000; /* Match the footer background */
 }
 
 .footer .info {
     display: flex;
     justify-content: space-between;
     padding: 30px 0;
+    color: #fff; /* White text */
 }
 
 .footer .info > div {
@@ -43,18 +46,19 @@
 }
 
 .footer .footer-logo .link {
-    color: rgb(107, 107, 107);
+    color: #b0b0b0; /* Light gray text */
     font-size: 15px;
     transition: 0.5s;
 }
 
 .footer .footer-logo .link:hover {
-    color: rebeccapurple;
+    color: #fff; /* White on hover */
 }
 
 .footer .footer-logo .slash {
     font-size: 13px;
     margin: 0 5px;
+    color: #b0b0b0; /* Light gray */
 }
 
 .footer .details .payment-ways img {
@@ -64,15 +68,18 @@
 .footer .details .contact-ways li {
     display: flex;
     align-items: center;
+    color: #fff; /* White text */
 }
 
 .footer .details .contact-ways li p {
     margin: 0;
     margin-left: 15px;
+    color: #b0b0b0; /* Light gray */
 }
 
 .footer p {
     font-size: 14px;
+    color: #b0b0b0; /* Light gray */
 }
 
 .footer hr {
@@ -83,7 +90,8 @@
 }
 
 .footer .rights {
-    background: #dedede;
+    background: #000; /* Match footer background */
+    color: #b0b0b0; /* Light gray text */
 }
 
 .footer .rights .container {
@@ -101,31 +109,32 @@
 .footer .rights p {
     margin: 0;
     font-size: 14px;
+    color: #b0b0b0; /* Light gray */
 }
 
 .footer .rights .terms a {
-    color: #222;
+    color: #b0b0b0; /* Light gray links */
     text-decoration: none;
     font-size: 14px;
 }
 
 .footer .rights .terms a:hover {
+    color: #fff; /* White on hover */
     text-decoration: underline;
 }
 
 .footer .rights .terms .slash {
     margin: 0 8px;
     font-size: 14px;
+    color: #b0b0b0; /* Light gray */
 }
 
 .footer .blur-color {
     top: 0;
-    background: linear-gradient(180deg, transparent, #dedede);
+    background: linear-gradient(180deg, transparent, #000); /* Match black background */
 }
 
-
-
-/* media */
+/* Media Queries */
 @media only screen and (max-width: 600px) {
     .footer .info {
         flex-direction: column;
@@ -142,6 +151,4 @@
     .footer .info ul:not(.contact-ways) {
         justify-content: center;
     }
-
-    
 }

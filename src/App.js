@@ -17,7 +17,7 @@ import About from "./Components/About/About";
 import Error404 from "./Components/Error404/Error404";
 import Contact from "./Components/Contact/Contact";
 import { useShopContext } from "./Context/ShopContext";
-
+import PaymentPage from "./Components/PaymentPage";
 function App() {
   const {navHeight} = useShopContext();
   return (
@@ -31,6 +31,8 @@ function App() {
             <Route path="/men" element={<Shop2 category = "Men" img = {menBanner}/>} />
             <Route path="/women" element={<Shop2 category = "Women" img = {womenBanner}/>} />
             <Route path="/kids" element={<Shop2 category = "Kids" img = {kidsBanner} />} />
+            
+        <Route path="/payment" element={<PaymentPage />} />
             <Route path="/product" element={<Product />} >
               <Route path=":productId" element={<Product />} />
             </Route>

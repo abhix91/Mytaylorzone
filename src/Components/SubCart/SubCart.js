@@ -58,14 +58,15 @@ export default function SubCart() {
                     })
                 }
             </div>
-            <div className="subcart-total title">
-                <h6>Subtotal:</h6>
-                <span>{getCartTotal()} $</span>
-            </div>
             <div className="subcart-btns">
-                <Link className="link" to="/cart" onClick={()=>setShowSubCart(false)}>view cart</Link>
-                <button>check out</button>
-            </div>
+  <Link className="link" to="/cart" onClick={() => setShowSubCart(false)}>
+    View Cart
+  </Link>
+  <Link className="link" to="/payment" onClick={() => setShowSubCart(false)}>
+    Check Out
+  </Link>
+</div>
+
         </div>
         : <div className='blank-content'>
             <BlankPage name='cart' img={emptyCart}/>
