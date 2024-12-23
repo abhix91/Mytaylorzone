@@ -43,6 +43,13 @@ This is a *Clothing App for Women* that offers a wide range of clothing options.
 - *MongoDB*: NoSQL database for storing user and cart information.
 
 ---
+## Demo
+
+### Screenshot
+![App Screenshot](./Screenshots/1.png)
+![App Screenshot](./Screenshots/2.png)
+![App Screenshot](./Screenshots/3.png)
+
 
 ## Installation and Setup
 
