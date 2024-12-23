@@ -18,6 +18,7 @@ import Error404 from "./Components/Error404/Error404";
 import Contact from "./Components/Contact/Contact";
 import { useShopContext } from "./Context/ShopContext";
 import PaymentPage from "./Components/PaymentPage";
+import Signup from "./pages/Signup";
 function App() {
   const {navHeight} = useShopContext();
   return (
@@ -38,6 +39,7 @@ function App() {
             </Route>
             <Route path="/wishlist" element={<WishList />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/signup" element={<Signup/>} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/compare" element={<Compare />} />
             <Route path="/search" element={<Search />} />
