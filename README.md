@@ -1,4 +1,4 @@
-# Mytaylorzone
+/*# Mytaylorzone
 # Clothing App for Women
 
 This is a *Clothing App for Women* that offers a wide range of clothing options. The application is built using the *MERN stack* (MongoDB, Express, React, Node.js) and styled with *Tailwind CSS*. It provides features such as user authentication, product browsing, cart management, and checkout. The app is fully deployed and accessible online.
@@ -63,3 +63,58 @@ Ensure you have the following installed:
    ```bash
    git clone https://github.com/your-repo/clothing-app.git
    cd clothing-app
+   */
+   # TaskLearn
+
+TaskLearn is an interactive platform where users can add and learn new skills. Each skill comes with a detailed description and related keywords, enabling users to explore chapters and answer AI-generated questions for a comprehensive learning experience.
+
+---
+
+## Features
+
+- **Add Skills**: 
+  - Users can add new skills with detailed descriptions and related keywords.
+- **Chapters Creation**: 
+  - Skills are divided into chapters, each focusing on specific topics.
+- **AI-Generated Questions**: 
+  - Interactive questions are provided by AI to enhance learning.
+
+---
+
+## Tech Stack
+
+### Frontend
+- **React**: Framework for building user interfaces.
+- **TailwindCSS**: Utility-first CSS framework for responsive design.
+- **Radix UI**: Accessible UI components.
+- **React Query**: State management and server state handling.
+- **React Hook Form**: Simplified form handling.
+- **Zod**: Schema validation for forms.
+
+### Backend
+- **Node.js**: Server-side runtime for JavaScript.
+- **Vite**: Fast build tool for modern web projects.
+
+### Other Libraries
+- **Axios**: For handling API requests.
+- **Recharts**: For creating interactive charts.
+- **DND Kit**: Drag-and-drop utilities.
+- **Embla Carousel**: Responsive carousels.
+
+---
+
+## Prerequisites
+
+Ensure you have the following installed on your system:
+- **Node.js** (v16 or higher)
+- **npm** or **yarn**
+- **Git**
+
+---
+
+## Installation and Setup
+
+1. **Clone the Repository**:
+   ```bash
+   git clone <repository-url>
+   cd tasklearn
