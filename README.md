@@ -64,65 +64,45 @@ Ensure you have the following installed:
    git clone https://github.com/your-repo/clothing-app.git
    cd clothing-app
    */
-# TaskLearn Frontend
+# 🚀 TaskLearn API
 
-TaskLearn Frontend is the user interface for the TaskLearn platform, where users can add and explore skills. This repository contains the frontend code built with React and styled using TailwindCSS. The backend is maintained in a separate repository.
-
----
-
-## Features
-
-- **Interactive UI:** 
-  - Add and view skills with descriptions and keywords.
-  - Explore chapters and answer AI-generated questions.
-
-- **Responsive Design:** 
-  - Fully responsive layout optimized for all devices.
-
-- **Frontend Libraries:**
-  - React for building the user interface.
-  - TailwindCSS for fast and responsive styling.
-  - React Query for state management.
-  - React Hook Form for form handling.
-  - Zod for schema validation.
+TaskLearn Backend is the server-side application powering the TaskLearn platform. It provides APIs for managing skills, chapters, and user interactions, integrating Prisma for database management and JWT for authentication.
 
 ---
 
-## Tech Stack
+## 📋 Prerequisites
 
-- **Frontend:** React, TailwindCSS, Radix UI
-- **State Management:** React Query
-- **Form Handling:** React Hook Form
-- **Validation:** Zod
-- **Other Libraries:**
-  - Axios
-  - Recharts
-  - DND Kit
-  - Embla Carousel
+Before getting started, ensure you have the following installed:
+
+- **[Node.js](https://nodejs.org/)** (version 16.x or higher)
+- **[MySQL](https://dev.mysql.com/downloads/)** (or any other database supported by Prisma, configured as per the `prisma/schema.prisma` file)
+- **[Prisma CLI](https://www.prisma.io/docs/getting-started)** (for database migrations)
 
 ---
 
-## Prerequisites
+## ⚙️ Setup
 
-Ensure you have the following installed on your system:
+### 1. Clone the Repository
+Clone the repository to your local machine:
+```bash
+git clone https://github.com/GRID-R-D/tasklearn-backend.git
+cd tasklearn-backend
 
-- **Node.js** (v16 or higher)
-- **npm** or **yarn**
-- **Git**
+```
+### 2. Install Dependencies
+  ```bash
+npm install
 
----
+```
+### 3. Configure Environment Variables
 
-## Setup Instructions
+### 4. Apply Database Migrations
+  ```bash
+ npm run migrate
+```
+### 5. Run the Development Server
+ ``` bash
+npm start
+```
+  
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/GRID-R-D/tasklearn-frontend.git
-   cd tasklearn-frontend
-
-2. **Install Dependencies**:
-   ```bash
-   npm install
-   
-3. **Run the Development Server**:
-   ```bash
-   npm run dev
