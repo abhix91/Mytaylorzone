@@ -1,4 +1,4 @@
-/*# Mytaylorzone
+# Mytaylorzone
 # Clothing App for Women
 
 This is a *Clothing App for Women* that offers a wide range of clothing options. The application is built using the *MERN stack* (MongoDB, Express, React, Node.js) and styled with *Tailwind CSS*. It provides features such as user authentication, product browsing, cart management, and checkout. The app is fully deployed and accessible online.
@@ -64,9 +64,7 @@ Ensure you have the following installed:
    git clone https://github.com/your-repo/clothing-app.git
    cd clothing-app
    */
-   # TaskLearn
-
-TaskLearn is an interactive platform where users can add and learn new skills. Each skill comes with a detailed description and related keywords, enabling users to explore chapters and answer AI-generated questions for a comprehensive learning experience.
+  TaskLearn is an interactive platform where users can add and learn new skills. Each skill comes with a detailed description and related keywords, enabling users to explore chapters and answer AI-generated questions for a comprehensive learning experience.
 
 ---
 
@@ -116,5 +114,13 @@ Ensure you have the following installed on your system:
 
 1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
-   cd tasklearn
+   git clone https://github.com/GRID-R-D/tasklearn-frontend.git
+   cd tasklearn-frontend
+
+2. **Install Dependencies**:
+   ```bash
+   npm install
+   
+3. **Run the Development Server**:
+   ```bash
+   npm run dev
