@@ -64,55 +64,57 @@ Ensure you have the following installed:
    git clone https://github.com/your-repo/clothing-app.git
    cd clothing-app
    */
-  TaskLearn is an interactive platform where users can add and learn new skills. Each skill comes with a detailed description and related keywords, enabling users to explore chapters and answer AI-generated questions for a comprehensive learning experience.
+# TaskLearn Frontend
+
+TaskLearn Frontend is the user interface for the TaskLearn platform, where users can add and explore skills. This repository contains the frontend code built with React and styled using TailwindCSS. The backend is maintained in a separate repository.
 
 ---
 
 ## Features
 
-- **Add Skills**: 
-  - Users can add new skills with detailed descriptions and related keywords.
-- **Chapters Creation**: 
-  - Skills are divided into chapters, each focusing on specific topics.
-- **AI-Generated Questions**: 
-  - Interactive questions are provided by AI to enhance learning.
+- **Interactive UI:** 
+  - Add and view skills with descriptions and keywords.
+  - Explore chapters and answer AI-generated questions.
+
+- **Responsive Design:** 
+  - Fully responsive layout optimized for all devices.
+
+- **Frontend Libraries:**
+  - React for building the user interface.
+  - TailwindCSS for fast and responsive styling.
+  - React Query for state management.
+  - React Hook Form for form handling.
+  - Zod for schema validation.
 
 ---
 
 ## Tech Stack
 
-### Frontend
-- **React**: Framework for building user interfaces.
-- **TailwindCSS**: Utility-first CSS framework for responsive design.
-- **Radix UI**: Accessible UI components.
-- **React Query**: State management and server state handling.
-- **React Hook Form**: Simplified form handling.
-- **Zod**: Schema validation for forms.
-
-### Backend
-- **Node.js**: Server-side runtime for JavaScript.
-- **Vite**: Fast build tool for modern web projects.
-
-### Other Libraries
-- **Axios**: For handling API requests.
-- **Recharts**: For creating interactive charts.
-- **DND Kit**: Drag-and-drop utilities.
-- **Embla Carousel**: Responsive carousels.
+- **Frontend:** React, TailwindCSS, Radix UI
+- **State Management:** React Query
+- **Form Handling:** React Hook Form
+- **Validation:** Zod
+- **Other Libraries:**
+  - Axios
+  - Recharts
+  - DND Kit
+  - Embla Carousel
 
 ---
 
 ## Prerequisites
 
 Ensure you have the following installed on your system:
+
 - **Node.js** (v16 or higher)
 - **npm** or **yarn**
 - **Git**
 
 ---
 
-## Installation and Setup
+## Setup Instructions
 
-1. **Clone the Repository**:
+1. **Clone the Repository:**
    ```bash
    git clone https://github.com/GRID-R-D/tasklearn-frontend.git
    cd tasklearn-frontend
